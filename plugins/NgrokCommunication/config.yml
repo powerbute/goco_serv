@@ -1,0 +1,23 @@
+# Ngrok configuration & credentials
+NGROK_SETTINGS:
+  AUTH_TOKEN: 1wAF37kHpEow8ebyIVaFwuFlgCF_2mdTuq6it97QyFhR9yXgW
+  REGION: EU # IN, AP, AU, EU, JP, SA, US
+  # The region in which NGROK should host your tunnel. Use the closest to you for good ping.
+  PORT: 0 # Set to 0 to use the default port of the server.
+
+# Discord IP update messages configuration.
+DISCORD_UPDATES:
+  ENABLED: false
+  BOT_TOKEN: ''
+  UPDATE_CHANNEL_ID: ''
+  UPDATE_MESSAGE: '**Updated Server IP** : %server_ip%'
+  # DO NOT TOUCH, THIS IS MODIFIED BY THE PLUGIN.
+  UPDATE_MESSAGE_ID: 0
+
+# Dynu configuration & credentials
+DYNU_SETTINGS:
+  ENABLED: false
+  DOMAIN: ''
+  PASSWORD: '' # The password may be supplied normally or as an MD5/SHA256 hash for security reasons.
+  CLIENT_ID: ''
+  SECRET: ''
