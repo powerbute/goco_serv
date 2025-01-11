@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "1e985a97-efd9-337f-bfd8-a4eedd12515f",
+    "name": "ThePowerbute",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
