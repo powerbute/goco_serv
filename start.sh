@@ -1,7 +1,9 @@
 #!/bin/bash
 
+lsb_release -a
+cat /etc/*-release
+
 # Установка Java 21
-dnf search openjdk
 dnf install java-21-openjdk
 
 # Проверка успешной установки
