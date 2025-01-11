@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Получаем информацию об архитектуре из файла /proc/cpuinfo
+arch=$(grep "CPU architecture" /proc/cpuinfo | awk '{print $3}')
+
+# Выводим результат
+echo "Архитектура сервера: $arch"
+
 lsb_release -a
 cat /etc/*-release
 
