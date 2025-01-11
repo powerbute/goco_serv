@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Установка Java 21
-sudo dnf install java-21-openjdk-devel
+dnf install java-21-openjdk-devel
 
 # Проверка успешной установки
 if [ $? -eq 0 ]; then
